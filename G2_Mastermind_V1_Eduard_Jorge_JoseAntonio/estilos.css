@@ -1,0 +1,197 @@
+body{
+	font-family: 'Orbitron', sans-serif;
+	
+
+}
+
+div{
+	padding: 20px;
+}
+.botones_colores{
+
+}
+
+#fila1{
+	
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila2{
+	
+	float: left;
+	position: absolute;
+	top: 80px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila3{
+	
+	float: left;
+	position: absolute;
+	top: 130px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila4{
+	
+	float: left;
+	position: absolute;
+	top: 180px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila5{
+	
+	float: left;
+	position: absolute;
+	top: 230px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila6{
+	
+	float: left;
+	position: absolute;
+	top: 280px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila7{
+	
+	float: left;
+	position: absolute;
+	top: 330px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#fila8{
+	
+	float: left;
+	position: absolute;
+	top: 380px;
+	left: 130px;
+	background-color: #5EBE8A;
+	padding: 10px;
+}
+#comprobacion{
+	
+	float: right;
+	position: absolute;
+	top: 33px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion2{
+	
+	float: right;
+	position: absolute;
+	top: 83px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion3{
+	
+	float: right;
+	position: absolute;
+	top: 133px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion4{
+	
+	float: right;
+	position: absolute;
+	top: 183px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion5{
+	
+	float: right;
+	position: absolute;
+	top: 233px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion6{
+	
+	float: right;
+	position: absolute;
+	top: 283px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion7{
+	
+	float: right;
+	position: absolute;
+	top: 333px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+#comprobacion8{
+	
+	float: right;
+	position: absolute;
+	top: 383px;
+	left: 350px;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #5EBE8A;
+}
+.botones_colores img:hover{
+
+	opacity: 0.6;
+}
+
+button{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Orbitron', sans-serif;
+}
+p{
+	font-size: 27px;
+	color: red;
+}
+#audi2{
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	font-weight: bold;
+	color: white;
+}
+.contenedor{
+	background-color: rgba(0,0,0,0.7);
+
+}
+.bot{
+	margin-left: 50px;
+}

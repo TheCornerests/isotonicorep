@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<title>MASTERMIND MÁ O MENO</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="mastermind.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body>
+
+	<div class="contenedor">
+
+		<div class="botones_colores">
+			<img onclick="escollir_color(0)" src="imagenes/rojo.png"><br>
+			<img onclick="escollir_color(1)" src="imagenes/verde.png"><br>
+			<img onclick="escollir_color(2)" src="imagenes/negro.png"><br>
+			<img onclick="escollir_color(3)" src="imagenes/azul_claro.png"><br>
+			<img onclick="escollir_color(4)" src="imagenes/naranja.png"><br>
+			<img onclick="escollir_color(5)" src="imagenes/rosa.png"><br>
+			<img onclick="escollir_color(6)" src="imagenes/amarillo.png"><br>
+			<img onclick="escollir_color(7)" src="imagenes/azul.png">
+		</div>
+
+		<div id="fila1">
+			<img id="fila10" src="imagenes/casilla.png">
+			<img id="fila11" src="imagenes/casilla.png">
+			<img id="fila12" src="imagenes/casilla.png">
+			<img id="fila13" src="imagenes/casilla.png">
+			
+		</div>
+		<div id="fila2">
+			<img id="fila20" src="imagenes/casilla.png">
+			<img id="fila21" src="imagenes/casilla.png">
+			<img id="fila22" src="imagenes/casilla.png">
+			<img id="fila23" src="imagenes/casilla.png">
+			
+		</div>
+		<div id="fila3">
+			<img id="fila30" src="imagenes/casilla.png">
+			<img id="fila31" src="imagenes/casilla.png">
+			<img id="fila32" src="imagenes/casilla.png">
+			<img id="fila33" src="imagenes/casilla.png">
+		</div>
+
+		<div id="fila4">
+			<img id="fila40" src="imagenes/casilla.png">
+			<img id="fila41" src="imagenes/casilla.png">
+			<img id="fila42" src="imagenes/casilla.png">
+			<img id="fila43" src="imagenes/casilla.png">
+		</div>
+
+		<div id="fila5">
+			<img id="fila50" src="imagenes/casilla.png">
+			<img id="fila51" src="imagenes/casilla.png">
+			<img id="fila52" src="imagenes/casilla.png">
+			<img id="fila53" src="imagenes/casilla.png">
+		</div>
+
+		<div id="fila6">
+			<img id="fila60" src="imagenes/casilla.png">
+			<img id="fila61" src="imagenes/casilla.png">
+			<img id="fila62" src="imagenes/casilla.png">
+			<img id="fila63" src="imagenes/casilla.png">
+		</div>
+
+		<div id="fila7">
+			<img id="fila70" src="imagenes/casilla.png">
+			<img id="fila71" src="imagenes/casilla.png">
+			<img id="fila72" src="imagenes/casilla.png">
+			<img id="fila73" src="imagenes/casilla.png">
+		</div>
+
+		<div id="fila8">
+			<img id="fila80" src="imagenes/casilla.png">
+			<img id="fila81" src="imagenes/casilla.png">
+			<img id="fila82" src="imagenes/casilla.png">
+			<img id="fila83" src="imagenes/casilla.png">
+		</div>
+
+		<div id="comprobacion">
+			<img id="fila110" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila111" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila112" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila113" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="comprobacion2">
+			<img id="fila120" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila121" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila122" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila123" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+		
+
+		<div id="comprobacion3">
+			<img id="fila130" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila131" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila132" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila133" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="comprobacion4">
+			<img id="fila140" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila141" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila142" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila143" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="comprobacion5">
+			<img id="fila150" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila151" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila152" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila153" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="comprobacion6">
+			<img id="fila160" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila161" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila162" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila163" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="comprobacion7">
+			<img id="fila170" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila171" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila172" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila173" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="comprobacion8">
+			<img id="fila180" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila181" src="imagenes/casilla_resultado.png" width="15px"><br>
+			<img id="fila182" src="imagenes/casilla_resultado.png" width="15px">
+			<img id="fila183" src="imagenes/casilla_resultado.png" width="15px">
+		</div>
+
+		<div id="visor">
+		</div>
+		
+		<div class="bot">	
+			<button onclick="compara()" id="comp">Comparar aposta</button>
+			<button onclick="rejugar()"  id="reinici">Tornar a Jugar</button><br>
+		</div>	
+		
+	
+		<p id="mensaje"></p>
+		<div id="random"></div>
+
+	</div>
+	<div id="audi2">
+		Tema 1<br><br><audio controls loop>
+  			<source src="fondo.mp3" type="audio/mpeg">
+ 				Tu navegador no soporta el elemento audio.
+		</audio>
+	</div>	
+</body>
+</html>

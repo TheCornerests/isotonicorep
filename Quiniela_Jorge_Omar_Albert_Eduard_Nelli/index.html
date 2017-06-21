@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media</title>
+	<link rel="stylesheet" type="text/css" href="estils.css">
+	<script type="text/javascript">
+		var resultado=["X", "1", "X", "1", "2", "1", "2", "X", "1", "X", "1", "X", "X", "2", "1"];
+		var apuesta=[];
+		var j=0;
+		var m="";
+		function compara(){
+			for (i=0;i<resultado.length;i++){
+				j++;
+				m="c"+j;
+				if (document.getElementsByName(m)[0].checked){
+					
+					apuesta.push(document.getElementsByName(m)[0].value);
+				
+
+				}else if (document.getElementsByName(m)[1].checked) {
+
+					apuesta.push(document.getElementsByName(m)[1].value);
+
+				}else{
+					apuesta.push(document.getElementsByName(m)[2].value);
+				}
+			
+				if (apuesta[i]==resultado[i]) {
+					document.getElementById("a"+j).style.backgroundColor = "green";
+					document.getElementById("a"+j).style.color = "white";
+				}
+					else{
+						document.getElementById("a"+j).style.backgroundColor = "red";
+						document.getElementById("a"+j).style.color = "white";
+					}
+			}		
+		}
+
+
+		
+	</script>
+</head>
+<body>
+<header>
+	<img src="logo_loteria.png" id="foto1" alt="Logo" title="Logo loteria" width="150">
+		<div class="cabecera">
+			<h1>SENCILLO-MÚLTIPLE 261</h1>
+			<h5>SENCILLO: Marque 14 signos por bloque (mínimo 2) en la zona de PRONÓSTICOS.</h5>
+			<h5>MÚLTIPLE: Marque los pronósicos sólo en bloque 1 y el número de Dobles y Triples en la zona de COMBINACIONES.</h5>
+			<h3>2.ª Liga Adelante / 2.ª División B         JORNADA: 20.ª      FECHA: 17-11-2017</h3>
+		</div>
+	<img src="logo.png" id="foto2" alt="Logo" title="Logo Quiniela" width="150">
+</header>	
+	
+
+		<span id="a1">Leganes - Alaves...........................1</span>
+		<label><input type="radio" name="c1" value="1" id="c1">1</label>
+		<label><input type="radio" name="c1" value="X" id="cc1">X</label>
+		<label><input type="radio" name="c1" value="2" id="ccc1">2</label><br>
+
+		<span id="a2">At. Madrid - Ath Bilbao..............2</span>
+		<label><input type="radio" name="c2" value="1" id="c2">1</label>
+		<label><input type="radio" name="c2" value="X" id="cc2">X</label>
+		<label><input type="radio" name="c2" value="2" id="ccc2">2</label><br>
+
+		<span id="a3">Sporting - Betis..............................3</span>
+		<label><input type="radio" name="c3" value="1" id="c3">1</label>
+		<label><input type="radio" name="c3" value="X" id="cc3">X</label>
+		<label><input type="radio" name="c3" value="2" id="ccc3">2</label><br>
+
+		<span id="a4">Deportivo - Las Palmas..............4</span>
+		<label><input type="radio" name="c4" value="1" id="c4">1</label>
+		<label><input type="radio" name="c4" value="X" id="cc4">X</label>
+		<label><input type="radio" name="c4" value="2" id="ccc4">2</label><br>
+
+		<span id="a5">Valencia - Villareal..................5</span>
+		<label><input type="radio" name="c5" value="1" id="c5">1</label>
+		<label><input type="radio" name="c5" value="X" id="cc5">X</label>
+		<label><input type="radio" name="c5" value="2" id="ccc5">2</label><br>
+
+		<span id="a6">Sevilla - Osasuna.........................6</span>
+		<label><input type="radio" name="c6" value="1" id="c6">1</label>
+		<label><input type="radio" name="c6" value="X" id="cc6">X</label>
+		<label><input type="radio" name="c6" value="2" id="ccc6">2</label><br>
+
+		<span id="a7">Malaga - R. Madrid......................7</span>
+		<label><input type="radio" name="c2" value="1" id="c7">1</label>
+		<label><input type="radio" name="c7" value="X" id="cc7">X</label>
+		<label><input type="radio" name="c7" value="2" id="ccc7">2</label><br>
+
+		<span id="a8">Celta - R. Sociedad........................8</span>
+		<label><input type="radio" name="c8" value="1" id="c8">1</label>
+		<label><input type="radio" name="c8" value="X" id="cc8">X</label>
+		<label><input type="radio" name="c8" value="2" id="ccc8">2</label><br>
+
+		<span id="a9">Mallorca - Almeria....................9</span>
+		<label><input type="radio" name="c9" value="1" id="c9">1</label>
+		<label><input type="radio" name="c9" value="X" id="cc9">X</label>
+		<label><input type="radio" name="c9" value="2" id="ccc9">2</label><br>
+
+		<span id="a10">Girona - Alcorcon.....................10</span>
+		<label><input type="radio" name="c10" value="1" id="c10">1</label>
+		<label><input type="radio" name="c10" value="X" id="cc10">X</label>
+		<label><input type="radio" name="c10" value="2" id="ccc10">2</label><br>
+
+		<span id="a11">Ucam Murcia - Huesca..............11</span>
+		<label><input type="radio" name="c11" value="1" id="c11">1</label>
+		<label><input type="radio" name="c11" value="X" id="cc11">X</label>
+		<label><input type="radio" name="c11" value="2" id="ccc11">2</label><br>
+
+		<span id="a12">Cadiz - Cordoba...........................12</span>
+		<label><input type="radio" name="c12" value="1" id="c12">1</label>
+		<label><input type="radio" name="c12" value="X" id="cc12">X</label>
+		<label><input type="radio" name="c12" value="2" id="ccc12">2</label><br>
+
+		<span id="a13">R. Oviedo - Zaragoza.................13</span>
+		<label><input type="radio" name="c13" value="1" id="c13">1</label>
+		<label><input type="radio" name="c13" value="X" id="cc13">X</label>
+		<label><input type="radio" name="c13" value="2" id="ccc13">2</label><br>
+
+		<span id="a14">Numancia - Lugo..........................14</span>
+		<label><input type="radio" name="c14" value="1" id="c14">1</label>
+		<label><input type="radio" name="c14" value="X" id="cc14">X</label>
+		<label><input type="radio" name="c14" value="2" id="ccc14">2</label><br>
+
+		<span id="a15">Barcelona - Eibar......................15</span>
+		<label><input type="radio" name="c15" value="1" id="c15">1</label>
+		<label><input type="radio" name="c15" value="X" id="cc15">X</label>
+		<label><input type="radio" name="c15" value="2" id="ccc15">2</label><br>
+
+		<button onclick="compara()">Enviar</button>
+		
+</body>
+</html> 

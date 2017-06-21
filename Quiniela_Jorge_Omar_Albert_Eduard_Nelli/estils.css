@@ -1,0 +1,77 @@
+span{
+	width: 300px;
+	display: inline-block;
+	color: #1A77F7;
+	text-transform: uppercase;
+	text-align: left;
+
+}
+
+body{
+	background: #FFFCDF;
+	width: 1000px;
+	margin: auto;
+	border: 1px solid #0000F7;
+	padding: 20px;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+	background-color: #1A77F7;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+h5{
+	font-size: 12px;
+	margin: 0px;
+}
+
+h3{
+	font-size: 22px;
+	border: 1px solid #1A77F7;
+	padding: 5px;
+	margin-top: 4px;
+	color: #1A77F7;
+}
+#foto2 {
+	float: right; 
+}
+
+#foto1{
+	float: left;
+	margin-right: 7px;
+}
+.cabecera{
+float: left;
+}
+header{
+	overflow: hidden;
+}
+#a1, #a5, #a9, #a12 {
+	border-top: 3px solid red;
+}
+
+#a15{
+	border-bottom: 3px solid red;
+}
+
+button{
+	margin-top: 10px;
+}
+label{
+	color: red;
+}
+.radio {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 18px;
+  line-height: 49px;
+  cursor: pointer;
+  }
+
